@@ -1,3 +1,4 @@
+# This piece of code tests to ensure that the firewall is up and ready to accept API traffic on the mgmt port.
 while true
 do
   echo "$1" >> /tmp/pan.log
