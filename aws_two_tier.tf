@@ -100,7 +100,7 @@ resource "aws_network_acl_rule" "acl1" {
   egress         = true
   protocol       = "-1"
   rule_action    = "allow"
-  cidr_block     = "192.168.0.0/16"
+  cidr_block     = "0.0.0.0/16"
 }
 
 resource "aws_network_acl_rule" "acl2" {
@@ -108,7 +108,7 @@ resource "aws_network_acl_rule" "acl2" {
   rule_number    = 100
   protocol       = "-1"
   rule_action    = "allow"
-  cidr_block     = "10.10.0.0/16"
+  cidr_block     = "0.0.0.0/16"
 }
 
 resource "aws_route_table" "rtb059a2460" {
