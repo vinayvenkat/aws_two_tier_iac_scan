@@ -1,5 +1,9 @@
 # This piece of code tests to ensure that the firewall is up and ready to accept API traffic on the mgmt port.
+<<<<<<< HEAD
 # This piece of code tests to ensure that the firewall is up and ready to accept API traffic on the mgmt port.
+=======
+# Trigger devops pipeline
+>>>>>>> cffdba6ea3354d09acd7aea585ec3bd61b6676b7
 while true
 do
   echo "$1" >> /tmp/pan.log
