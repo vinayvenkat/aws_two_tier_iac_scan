@@ -1,6 +1,7 @@
 
 /*
   Create the VPC for Demo purposes
+  A new description to the VPC
 */
 resource "aws_vpc" "main" {
   cidr_block = "${var.VPCCIDR}"
